@@ -21,6 +21,7 @@
         </h1>
       </div>
     </header>
+    <World />
     <div class="wrapper">
       <div class="event-page__filters-time">
         <client-only>
@@ -103,6 +104,7 @@ import { Component } from 'vue-property-decorator'
 import QiskitPage from '~/components/logic/QiskitPage.vue'
 import EventCard from '~/components/events/EventCard.vue'
 import AppLink from '~/components/ui/AppLink.vue'
+import World from '~/components/ui/world/World.vue'
 import {
   CommunityEvent,
   WORLD_REGION_OPTIONS,
@@ -115,7 +117,8 @@ import { EVENT_REQUEST_LINK } from '~/constants/appLinks'
 
   components: {
     EventCard,
-    AppLink
+    AppLink,
+    World
   },
 
   head () {

@@ -28,6 +28,7 @@
     "types": [
       "@types/node",
       "@types/jest",
+      "@types/gl-matrix",
       "@nuxt/types",
       "@nuxt/content",
       "@nuxtjs/axios",
